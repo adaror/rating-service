@@ -1,9 +1,9 @@
 const express = require('express')
-const app = express()
-const port = 3000
+const app = express();
+const { port } = require('./src/config/config');
+const logger = require('./src/utils/logger');
 
-app.get('/', (req, res) => res.send('Hello World!'))
+//loading routes
+require('./src/routes/routes')(app);
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
-
-//created by adaror
+app.listen(port, () => logger.info(`Ranking Service listening at http://localhost:${port}`));
