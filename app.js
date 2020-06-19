@@ -6,4 +6,10 @@ const logger = require('./src/utils/logger');
 //loading routes
 require('./src/routes/routes')(app);
 
-app.listen(port, () => logger.info(`Ranking Service listening at http://localhost:${port}`));
+app.listen(port, (err) => {
+    if (err) {
+        logger.error(`Error launching service : ${err}`);
+        throw  err;
+    }
+    logger.info(`Ranking Service listening at http://localhost:${port}`)
+});
