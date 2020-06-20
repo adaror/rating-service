@@ -2,6 +2,7 @@ const logger = require('../utils/logger');
 
 async function relevantApp (req, res) {
     try {
+        console.log(req.query);
         logger.info('hey');
         res.status(200).send('ok');
     } catch (err) {
