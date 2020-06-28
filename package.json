@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start app.js",
+    "test": "mocha --reporter spec test/**/*.test.js",
+    "stop": "pm2 stop all"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,16 @@
   },
   "homepage": "https://github.com/adaror/rating-service#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "express": "^4.17.1",
     "joi": "^14.3.1",
     "mocha": "^8.0.1",
+    "mock-require": "^3.0.3",
+    "mongoose": "^5.9.20",
     "pm2": "^4.4.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sinon": "^9.0.2",
     "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4",
     "winston": "^3.2.1"
