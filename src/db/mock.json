@@ -1,0 +1,74 @@
+[
+    {
+        "id": "d83d1adc-2013-465c-b153-11da63b426ab",
+        "name": "pinterest",
+        "category": "art",
+        "averageAge": 0,
+        "sumOfAges": 0,
+        "numOfInstallers": 0
+    },
+    {
+        "id": "13741524-df85-436a-9d5a-e8c1add46330",
+        "name": "ynet",
+        "category": "news",
+        "averageAge": 0,
+        "sumOfAges": 0,
+        "numOfInstallers": 0
+    },
+    {
+        "id": "13741524-df85-436a-9d5a-e8c1add46330",
+        "name": "waze",
+        "category": "navigation",
+        "averageAge": 0,
+        "sumOfAges": 0,
+        "numOfInstallers": 0
+    },
+    {
+        "id": "d2358092-543e-4fe4-b1c4-ad191f1ffbb9",
+        "name": "instagram",
+        "category": "social",
+        "averageAge": 0,
+        "sumOfAges": 0,
+        "numOfInstallers": 0
+    },
+    {
+        "id": "536753c0-9e46-47c1-b725-fa89d943473e",
+        "name": "facebook",
+        "category": "social",
+        "averageAge": 25,
+        "sumOfAges": 176,
+        "numOfInstallers": 7
+    },
+    {
+        "id": "3f68f387-5e85-47a1-89b4-68d72f892f25",
+        "name": "twitter",
+        "category": "social",
+        "averageAge": 29,
+        "sumOfAges": 144,
+        "numOfInstallers": 5
+    },
+    {
+        "id": "138df27e-5f3e-4b8c-9727-b5765c03e4c3",
+        "name": "clash of clan",
+        "category": "gaming",
+        "averageAge": 28,
+        "sumOfAges": 86,
+        "numOfInstallers": 3
+    },
+    {
+        "id": "dde20c7c-c7c6-4a3b-927e-48c5d9429a8d",
+        "name": "shazam",
+        "category": "music",
+        "averageAge": 27,
+        "sumOfAges": 134,
+        "numOfInstallers": 5
+    },
+    {
+        "id": "fced4066-9d82-4323-8ace-4df969c27f55",
+        "name": "spotify",
+        "category": "music",
+        "averageAge": 27,
+        "sumOfAges": 161,
+        "numOfInstallers": 6
+    }
+]
